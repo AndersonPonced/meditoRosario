@@ -1,0 +1,428 @@
+body {
+    background-color: #333;
+    color: #fff;
+    
+    font-family: 'Vollkorn', serif;
+ 
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap');
+#menuButtoni{
+
+
+
+display: none;
+
+    
+}
+
+div {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+      
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+
+
+
+
+h2 {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+strong {
+    color: #fff;
+    font-weight: bold;
+}
+
+button {
+    background-color: #d96100;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #b94c00;
+}
+
+#menuButton {
+    background-color: #d96100;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  
+}
+
+#menuButton:hover {
+    background-color: #b94c00;
+}
+
+.tituloso {
+    text-align: center;
+    position: relative;
+    top: -70px;
+}
+.titulos {
+    text-align: center;
+}
+.rosario {
+    position: relative;
+    left: 42%;
+}
+
+.show {
+    display: block;
+    background-color: #161616;
+    padding: 10px;
+    border-radius: 30px;
+    width: 60vw;
+    position: relative;
+    left: 19%;
+}
+
+.misterios {
+    border-radius: 30px;
+    height: 39px;
+    background-color: #be5804;
+    position: relative;
+    text-align: center;
+}
+
+.misteriosin {
+    border-radius: 30px;
+    height: 52px;
+    background-color: #be5804;
+    position: relative;
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    /* Estilos específicos para dispositivos con una anchura máxima de 768px */
+    body {
+        font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 19px;
+    }
+    
+    button {
+        padding: 8px 16px;
+    }
+    
+    #menuButton {
+        padding: 8px 16px;
+    }
+    
+    .rosario {
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Estilos específicos para dispositivos con una anchura máxima de 480px */
+    body {
+        font-size: 12px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+    
+    p {
+        font-size: 19px;
+    }
+    
+    button {
+        padding: 6px 12px;
+    }
+    
+    #menuButton {
+        padding: 6px 12px;
+    }
+    
+    .rosario {
+        left: 38%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+ 
+    h1 {
+        font-size: 20px;
+
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+    
+    p {
+        font-size: 17px;
+    }
+    
+    button {
+        padding: 8px 16px;
+        margin-block-end: 10px;
+         
+    }
+    
+    #menuButtoni {
+        display: block;
+       
+      
+    }
+    
+
+    .med{
+        width: 15vw;
+         
+        
+        }
+    nav ul {
+        display: none;
+    }
+    
+    nav.active ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav.active a {
+        margin: 10px 0;
+    }
+
+    .show {
+        display: block;
+        background-color: #111111;
+        padding: 10px;
+        border-radius: 30px;
+        width: 80vw;
+        position: relative;
+        left: 3.5%;
+     
+    }
+    iframe {
+        width: 50%;
+        height: auto;
+        background-color: red;
+    }
+    
+     
+    .vid{
+       
+        width: 70vw;
+        display: none;
+        
+
+    }
+    .ifr {
+        width: 50%;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .tuto{
+        
+        display: flex;
+    justify-content: space-around;}
+    .mary{
+      display: none;
+      
+        
+            }
+
+
+body{
+
+
+
+}
+
+
+
+            .banner{
+                position: relative;
+                left: -39px;
+             
+                
+                    }
+
+                    
+    
+}
+
+
+
+.rjo{color: red;}
+
+.vid{
+
+position: relative;
+left: 15%;
+ 
+
+
+
+}
+
+iframe{
+
+border-radius: 20px;
+
+}
+
+
+.calendar {
+    text-align: center;
+    font-size: 15px;
+     
+}
+
+.day {
+    display: inline-block;
+    padding: 10px;
+    background-color: #222;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.day:hover {
+    background-color: #444;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 5px;
+ 
+}
+
+.calendar .day .title {
+    background-color: #be5804;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+     
+}
+.calendar .day .title:hover {
+    background-color: #b94c00;
+}
+
+
+
+
+.banner{
+
+  
+    width: 9vw;
+}
+
+.mary{
+
+position: relative;
+top: -38px;
+width: 95vw;
+height: 70vh;
+left: -19px;
+overflow-x: hidden; /* Oculta el scroll horizontal */
+;
+}
+ 
+.hidden {
+    display: none;
+  }
+  
+ .tuto{
+
+display: flex;
+justify-content: space-around;
+
+
+ }
+
+ .no{
+
+color: white;
+
+
+ }
+
+ .no:hover{
+
+color: #d6d6d6;
+
+ }
+
+ footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.ma{color: #d6d6d6;}
+
+.misteriosin {
+    border-radius: 30px;
+    height: 52px;
+    background-color: #be5804;
+    position: relative;
+    text-align: center;
+}
